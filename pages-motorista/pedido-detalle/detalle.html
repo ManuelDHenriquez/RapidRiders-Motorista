@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div id="boton-retroceder" class="txt-detalle">
+            <i class="icono fa-solid fa-angle-left xs" style="color: #000000;" onclick="retrocederPagina()"></i>
+            <span id="pg-detalle-encabezado" class="text-nav"></span>
+        </div>
+    </nav>
+    <div class="container-fluid">
+            <div class="contenido">
+                <!--Informacion del cliente-->
+                <div id="num-orden">
+                    <h5 id="pedido-numero">Orden #</h5>
+                </div>
+                <div class="txt-puntos">
+                    <i class="fa-solid fa-user"></i>
+                    <h5>Datos del cliente</h5>
+                </div>
+                <div id="detalle-cliente">
+                    <p id="pedido-fecha"><strong>Fecha de pedido: </strong></p>
+                    <p id="cliente-nombre"><strong>Cliente: </strong></p>
+                    <p id="cliente-celular"><strong>Contacto: </strong></p>
+                    <p id="cliente-correo"><strong>Email: </strong></p>
+                </div>
+                <!--**********************************************************************************-->
+                <!--Informacion de Direccion-->
+                <div id="div-ubicacion">
+                    <div class="txt-puntos">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                        <h5>Dirección de Entrega</h5>
+                    </div>
+                    <div id="ubicacion">
+                        <p id="pedido-ubicacion"><strong>Dirección: </strong></p>
+                        <a href="#">Ver ubicación en mapa</a>
+                    </div>
+                </div>
+                
+                <!--**********************************************************************************-->
+                <!--Informacion de Descripcion de pedidos-->
+                <div class="txt-puntos">
+                    <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                    <h5>Descripción de pedido</h5>
+                </div>
+
+                <table id="tabla-detalle-pedido" class="table table-warning">
+                    <thead>
+                        <tr>
+                            <th scope="col">Cant</th>
+                            <th scope="col">producto</th>
+                            <th scope="col">Precio</th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody id="tabla-cuerpo">
+                    </tbody>
+
+                    <tfoot>
+                        <tr class="table-danger">
+                            <th></th>
+                            <td><strong>Total:</strong></td>
+                            <td><strong id="valor-total">L.</strong></td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <!--**********************************************************************************-->
+                
+                <!--INFORMACION TOTAL DE PAGAR CON COMISION-->
+                <div class="precio-total" id="total">
+                    <div>
+                        <label>Comisión por gestión: </label>
+                        <span id="comision-gestion">L.</span>
+                        <label>Comisión por servicio: </label>
+                        <span id="comision-servicio">L.</span>
+                        <label>Subtotal: </label>
+                        <span id="valor-subtotal">L.</span>
+                        <label>I.S.V (15%): </label>
+                        <span id="valor-ISV">L.</span>
+                        <label>Total a Pagar: </label>
+                        <span id="valor-total-price">L.</span>
+                    </div>
+                </div>
+                <!--**********************************************************************************-->
+                <div id="div-boton-pedido-accion" class="boton">
+                </div>
+            </div>
+    </div>
+
+
+
+
+    <script src="https://kit.fontawesome.com/4c0694d6b6.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+
+        <script src="assets/js/controlador-pedido-data.js"></script>
+</body>
+
+</html>

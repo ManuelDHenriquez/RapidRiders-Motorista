@@ -1,0 +1,26 @@
+[
+  {
+    "id":"1",
+    "nombre": "Susan",
+    "apellido": "Cid",
+    "correo": "susan@unah.hn",
+    "password": "susan8888",
+    "celular": "+504 9900-1122",
+    "ordenes": 
+    [
+      "1", "2", "3", "4", "5", "6", "7", "8"
+    ]
+  },
+  {
+    "id":"2",
+    "nombre": "Manuel",
+    "apellido": "Leunma",
+    "correo": "Manuel@unah.hn",
+    "password": "manuel8888",
+    "celular": "+504 8899-0000",
+    "ordenes": 
+    [
+      "10", "11"
+    ]
+  }
+]

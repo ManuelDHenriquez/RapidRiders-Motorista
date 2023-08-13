@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+    <body>
+        <div class="inicio">
+            <div class="fondo">
+                <img class="logo-rapidriders" src="assets/img/LOGOrapid-riders.png" alt="rapid-riders.png">
+                <p class="logo-nombre">Rapid Riders</p>
+            </div>
+            <div class="filtro">
+                <div class="login">
+                    <h1>Inicia Sesión</h1>
+                    <p>Conductor</p>
+                    <label for="usuario">Correo Electrónico</label>
+                    <input id='user-email' type="text" name="usuario" placeholder="Ingresa tu correo" value="susan@unah.hn">
+                    <label class="password" for="Contraseña">Contraseña</label>
+                    <input id='user-password' type="password" name="password" placeholder="Ingresa tu contraseña" value="susan8888">
+                    <button id="login" style="font-weight: bold;" onclick="checkLogin()">
+                        Iniciar Sesión
+                    </button>
+                    <a href="../registro-motorista/registro-motorista.html">¿No te has Registrado?</a>
+                </div>
+            </div>
+        </div>
+
+        <script src="assets/js/controlador-login.js"></script>
+    </body>
+</html>

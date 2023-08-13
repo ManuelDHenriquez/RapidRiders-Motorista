@@ -1,0 +1,256 @@
+[
+    {
+      "numeroOrden": "1",
+      "nombreCliente": "Danger PitBall",
+      "correoCliente": "Danger@hotmail.com",
+      "celularCliente": "+504 1111-1111",
+      "ubicacion": "Villa Vieja",
+      "productos" : 
+      [
+        {
+          "nombreProducto": "Coca cola",
+          "descripcion": "Coca cola en lata",
+          "cantidad": 2,
+          "precio": 25
+        },
+        {
+          "nombreProducto": "hamburguesa",
+          "descripcion": "hamburguesa BigMacAll",
+          "cantidad": 1,
+          "precio": 60
+        },
+        {
+            "nombreProducto": "Confites",
+            "descripcion": "Mentas Acidas",
+            "cantidad": 10,
+            "precio": 3
+        }
+      ],
+      "comisionGestion": 18,
+      "comisionServicio": 22,
+      "totalPrice": 140,
+      "estado": "Tomado",
+      "fechaSolicitud": "1/8/2023",
+      "fechaEntrega": "",
+      "horaEntrega": ""
+    },
+    {
+      "numeroOrden": "2",
+      "nombreCliente": "Maria Cid",
+      "correoCliente": "Maria@hotmail.com",
+      "celularCliente": "+504 2222-2222",
+      "ubicacion": "Villa Nueva",
+      "productos" : 
+      [
+        {
+          "nombreProducto": "pizza",
+          "descripcion": "Pizza clasica de peperoni",
+          "cantidad": 2,
+          "precio": 99
+        }
+      ],
+      "comisionGestion": 10,
+      "comisionServicio": 15,
+      "totalPrice": 198,
+      "estado": "Tomado",
+      "fechaSolicitud": "1/8/2023",
+      "fechaEntrega": "",
+      "horaEntrega": ""
+    },
+    {
+      "numeroOrden": "3",
+      "nombreCliente": "Sara Ochoa",
+      "correoCliente": "Sara@gmail.com",
+      "celularCliente": "+504 3333-3333",
+      "ubicacion": "col. El pedregal, calle principal continuo a ferreteria indufesa",
+      "productos" : 
+      [
+        {
+          "nombreProducto": "Pizza Dominos",
+          "descripcion": "Pizza clasica de queso",
+          "cantidad": 1,
+          "precio": 150
+        }
+      ],
+      "comisionGestion": 10,
+      "comisionServicio": 15,
+      "totalPrice": 150,
+      "estado": "Pendiente",
+      "fechaSolicitud": "2/8/2023",
+      "fechaEntrega": "",
+      "horaEntrega": ""
+    },
+    {
+      "numeroOrden": "4",
+      "nombreCliente": "Julio Gregorio",
+      "correoCliente": "Julio@gmail.com",
+      "celularCliente": "+504 4444-4444",
+      "ubicacion": "Pedegral",
+      "productos" : 
+      [
+        {
+          "nombreProducto": "Pepsi",
+          "descripcion": "Pepsi en lata",
+          "cantidad": 2,
+          "precio": 23
+        }
+      ],
+      "comisionGestion": 10,
+      "comisionServicio": 15,
+      "totalPrice": 46,
+      "estado": "Tomado",
+      "fechaSolicitud": "3/8/2023",
+      "fechaEntrega": "",
+      "horaEntrega": ""
+    },
+    {
+      "numeroOrden": "5",
+      "nombreCliente": "Abraham Daeva",
+      "correoCliente": "Abraham@outlook.com",
+      "celularCliente": "+504 5555-5555",
+      "ubicacion": "Efes",
+      "productos" : 
+      [
+        {
+          "nombreProducto": "Mashaj Sason",
+          "descripcion": "Aceite Embalsamado con Sangre",
+          "cantidad": 3,
+          "precio": 258
+        }
+      ],
+      "comisionGestion": 70,
+      "comisionServicio": 80,
+      "totalPrice": 774,
+      "estado": "Entregado",
+      "fechaSolicitud": "25/8/2023",
+      "fechaEntrega": "26/8/2023",
+      "horaEntrega": "10:30 AM"
+    },
+    {
+        "numeroOrden": "6",
+        "nombreCliente": "Allfred Libertity",
+        "correoCliente": "AllFree@hotmail.com",
+        "celularCliente": "+504 6666-6666",
+        "ubicacion": "Guanacaste",
+        "productos" : 
+        [
+          {
+            "nombreProducto": "Sopa Marinera",
+            "descripcion": "Sopra de Camaron con Vegetales",
+            "cantidad": 3,
+            "precio": 200
+          },
+          {
+            "nombreProducto": "Botellas Agua",
+            "descripcion": "Botellas de AGua de 1L",
+            "cantidad": 3,
+            "precio": 30
+          }
+        ],
+        "comisionGestion": 30,
+        "comisionServicio": 45,
+        "totalPrice": 690,
+        "estado": "Pendiente",
+        "fechaSolicitud": "1/8/2023",
+        "fechaEntrega": "",
+        "horaEntrega": ""
+    },
+      {
+        "numeroOrden": "7",
+        "nombreCliente": "Daniel Ailel",
+        "correoCliente": "Daniel@hotmail.com",
+        "celularCliente": "+504 7777-7777",
+        "ubicacion": "Ain",
+        "productos" : 
+        [
+          {
+            "nombreProducto": "Dam Jayah",
+            "descripcion": "Bolsa de Agua Viva",
+            "cantidad": 5,
+            "precio": 358
+          }
+        ],
+        "comisionGestion": 70,
+        "comisionServicio": 80,
+        "totalPrice": 1074,
+        "estado": "Pendiente",
+        "fechaSolicitud": "1/8/2023",
+        "fechaEntrega": "",
+        "horaEntrega": ""
+      },
+      {
+        "numeroOrden": "8",
+        "nombreCliente": "Nykol Valladoresh",
+        "correoCliente": "Nykol@outlook.com",
+        "celularCliente": "+504 8888-8888",
+        "ubicacion": "Cerro Alto",
+        "productos" : 
+        [
+          {
+            "nombreProducto": "Bolsa de Vegetales",
+            "descripcion": "Vegetales varios",
+            "cantidad": 2,
+            "precio": 200
+          },
+          {
+            "nombreProducto": "Fresco Natural",
+            "descripcion": "Fresco Natura 75ML de Mora, Sandia, o Naranja",
+            "cantidad": 1,
+            "precio": 80
+          }
+        ],
+        "comisionGestion": 20,
+        "comisionServicio": 25,
+        "totalPrice": 480,
+        "estado": "Entregado",
+        "fechaSolicitud": "26/8/2023",
+        "fechaEntrega": "26/8/2023",
+        "horaEntrega": "11:10 AM"
+      },
+      {
+        "numeroOrden": "10",
+        "nombreCliente": "Juliana Romanov",
+        "correoCliente": "Juliana@hotmail.com",
+        "celularCliente": "+504 1010-1010",
+        "ubicacion": "Villa Actual",
+        "productos" : 
+        [
+          {
+            "nombreProducto": "Pepsi",
+            "descripcion": "Pepsi en lata",
+            "cantidad": 1,
+            "precio": 23
+          }
+        ],
+        "comisionGestion": 10,
+        "comisionServicio": 15,
+        "totalPrice": 23,
+        "estado": "Tomado",
+        "fechaSolicitud": "3/8/2023",
+        "fechaEntrega": "",
+        "horaEntrega": ""
+      },
+      {
+        "numeroOrden": "11",
+        "nombreCliente": "Marcela Gandara",
+        "correoCliente": "Marcela@hotmail.com",
+        "celularCliente": "+504 0011-0011",
+        "ubicacion": "Villa Nula",
+        "productos" : 
+        [
+          {
+            "nombreProducto": "Pizza",
+            "descripcion": "Pizza clasica de queso",
+            "cantidad": 2,
+            "precio": 199
+          }
+        ],
+        "comisionGestion": 18,
+        "comisionServicio": 22,
+        "totalPrice": 398,
+        "estado": "Entregado",
+        "fechaSolicitud": "3/8/2023",
+        "fechaEntrega": "25/7/2023",
+        "horaEntrega": "12:00PM"
+      }
+]
