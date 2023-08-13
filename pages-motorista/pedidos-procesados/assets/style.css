@@ -1,0 +1,355 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Poppins:wght@500&display=swap');
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #D9D9D9;
+}
+.inicio{
+    position: relative;
+    z-index: 200;
+}
+
+.fondo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #262524;
+    position: relative;
+    width: 100vw;
+    height: 15vh;
+    flex-direction: column;
+}
+
+.logo-rapidriders{
+    width: 5%;
+}
+
+.logo-nombre{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+    font-size: 30px;
+    color: white;
+    font-size: 1.9rem;
+}
+
+.nav-menu{
+    color: white;
+}
+
+
+/*.navbar{
+    background-color: #262524;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+.txt-logo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    color: white;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 1.1rem;
+}
+
+.img-logo {
+    display: block;
+    margin: 0 auto;
+    width: 9%;
+}
+
+.logo-nombre{
+    margin-top: 10px;
+    margin-left: 113px;
+}
+
+/*.logo-nombre{
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 1.1rem;
+    color: white;
+    margin-top: 8px;
+}*/
+
+/*.txt-logo{
+        position: fixed;
+        top: 9%;
+        left: 639px;
+        transform: translateY(-55%);
+        padding: 9px;
+}
+
+
+/*Menu Desplegable*/
+.menu {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+    background-color:  #262524;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	transition: transform 250ms ease;
+	cursor: pointer;
+	z-index: 200;
+}
+
+.menu span {
+    position: relative;
+    display: block;
+    width: 50%;
+    height: 2px;
+    background-color:white;
+    float: left;
+    transform-origin: center center;
+    transition: transform 250ms ease;
+    z-index: 200;
+    
+    &:nth-of-type(1) {
+        transform: translateY(-5px);
+    }
+    
+    &:nth-of-type(3) {
+        transform: translateY(5px);
+    }
+}
+
+#menu {
+	display: none;
+	
+	&:checked ~ .menu {
+		background-color: transparent;
+		transform: rotate(360deg);
+		transition: transform 250ms ease;
+		
+		span {
+			background-color: white;
+			transition: transform 250ms ease;
+			
+			&:nth-of-type(1) {
+				transform: translateY(1px) rotate(45deg);
+			}
+			
+			&:nth-of-type(2) {
+				display: none;
+			}
+			
+			&:nth-of-type(3) {
+				transform: translateY(-1px) rotate(-45deg);
+			}
+		}
+	}
+	
+	&:checked ~ .nav {
+		left: 0px;
+		transition: left 500ms ease;
+	}
+	
+	&:checked ~ main {
+		transform: translateX(250px);
+		transition: transform 500ms ease;
+	}
+}
+
+.nav{
+        position: absolute;
+        top: 0;
+        left: -210px;
+        width: 210px;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        background-color: #444;
+        transition: left 500ms ease;
+        z-index: 99;
+        display: flex;
+        flex-direction: column;
+}
+
+.nav #profile{
+
+    margin-left: -3px;
+    padding: 10px;
+    display: flex;
+    padding-top: 100px;
+}
+
+#photo{
+    margin: 15px 15px 0px 15px;
+}
+
+.imagen-face{
+    width:60px;
+    height: 57px;
+    border-radius: 50%;
+}
+
+#name{
+    color: #fff;
+}
+#correo{
+    color: #fff;
+    margin-top: 3px;
+    font-size: 0.7rem;
+}
+
+img{
+    width: 35%;
+}
+
+.linea{
+    color: #fff;
+}
+
+ul{
+	position: relative;
+	list-style-type: none;
+	padding: 0;
+}
+
+li{
+    position: relative;
+	display: block;
+	border-bottom: 5px solid rgba(white,1);
+}
+
+a {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 15px 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    &:before {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        transition: width 250ms ease;
+        z-index: -1;
+}
+&:hover {
+    color: #FDB700;
+    
+    &:before {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(white,1);
+        transition: width 250ms ease;
+    }
+}
+}
+
+.card-header{
+    text-align: center;
+    background-color: #FDB700;
+    font-weight: bold;
+}
+
+.informacion{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+
+.fila-una p{
+    margin-bottom: 5px;
+    font-size: 0.7rem;
+}
+
+.fila-una h5{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+select{
+    font-size: 0.7rem !important;
+}
+
+.card{
+    border-radius: none !important;
+}
+
+select, option{
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    text-align: center !important;
+}
+.form-control:focus{
+    border: none;
+    border-color: none !important;
+    box-shadow: none !important;
+}
+
+
+/*main*/
+
+/*.contenido-title{
+    background-color: yellow;
+}
+
+.title{
+    text-align: center;
+    padding: 15px;
+}*/
+
+
+
+/*#informacion {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    border: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(223, 211, 211);
+}*/
+
+@media screen and (max-width: 768px){
+
+    .fondo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #262524;
+        width: 100%;
+        height: 15vh;
+        border-radius: 0px 0px 25px 25px;
+    }
+
+    .logo-rapidriders{
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 13px;
+    }
+    
+    .logo-nombre {
+        font-family: 'COCOGOOSE', sans-serif;
+        margin-top: 15px;
+        font-size: 1.5rem;
+        color: white;
+        margin-left: 5px;
+    }
+}
