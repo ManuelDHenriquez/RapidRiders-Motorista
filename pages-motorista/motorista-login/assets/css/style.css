@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    font-family: 'COCOGOOSE', sans-serif;
+    background-color: #D9D9D9;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.fondo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #262524;
+    position: relative;
+    width: 100vw;
+    height: 40vh;
+    flex-direction: column;
+    border-radius: 0 0 30px 30px;
+  
+}
+
+.logo-rapidriders{
+    width: 10%;
+}
+
+.logo-nombre{
+    font-family: 'COCOGOOSE', sans-serif;
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.filtro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    padding: 30px 60px 30px 60px;
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    margin-top: 400px;
+    border-radius: 30px;
+}
+
+h1{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+p{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+label{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.password{
+    margin-top: 15px;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #D9D9D9;
+    padding: 0 0 0 15px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 0.8rem;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+#login{
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 68px;
+    height: 40px;
+    width: 60%;
+    background-color: #FDB700;
+    border: none;
+    border-radius: 7px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: bold;
+}
+
+a{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 38px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    font-family: 'COCOGOOSE', sans-serif;
+}
+
+@media screen and (max-width: 768px){
+
+    div{
+        width:100%;
+        height:auto;
+        margin-left:0;
+    }
+
+    img {
+        width: 35%;
+    }
+    .fondo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #262524;
+        width: 100%;
+        height: 40vh;
+        border-radius: 0px 0px 25px 25px;
+        position: absolute;
+    }
+
+    .logo-rapidriders{
+        width: 29%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 13px;
+    }
+    
+    .logo-nombre {
+        font-family: 'COCOGOOSE', sans-serif;
+        margin-top: 20px;
+        font-size: 25px;
+        color: white;
+        margin-left: 5px;
+    }
+
+    .filtro {
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+    }
+    
+    .login {
+        width: 70%;
+        background-color: #FFF;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 20px;
+        margin-top: 286px;
+    }
+    
+    
+    input {
+        width: 100%;
+        border-style: none;
+        background-color: #D9D9D9;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    #login {
+        background-color: #FDB700;
+        color: #000;
+        padding: 10px;
+        border-style: none;
+        border-radius: 5px;
+        margin-left: 41px;
+        width: 70%;
+    }
+
+
+
+}
+    
+
